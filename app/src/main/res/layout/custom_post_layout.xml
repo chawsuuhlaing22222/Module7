@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_medium">
+
+<ImageView
+    android:id="@+id/ivRose"
+    android:src="@drawable/rose"
+    android:scaleType="centerCrop"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_200"/>
+
+    <TextView
+       android:id="@+id/tvRoseBody"
+        android:layout_below="@id/ivRose"
+        android:text="@string/lbl_bbc_news_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<View
+    android:layout_below="@id/tvRoseBody"
+    android:background="#BCB0B0"
+    android:layout_width="match_parent"
+    android:layout_height="4dp"/>
+
+</RelativeLayout>
