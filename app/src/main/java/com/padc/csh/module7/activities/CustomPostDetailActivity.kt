@@ -14,6 +14,8 @@ class CustomPostDetailActivity : AppCompatActivity() {
         fabCustomView.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))
             finish()
+
+
         }
     }
 }
